@@ -46,7 +46,7 @@ public class Tetris extends Canvas implements Runnable {
 	public int score = 0;
 	public int level = 1;
 
-	public List<Highscore> highscore = new ArrayList<Highscore>();
+	public List<Highscore> highscore = new ArrayList<>();
 	public String hsName = "";
 	public boolean showNameInput = false;
 
